@@ -26,6 +26,8 @@ const BookContextProvider = (props) => {
     //     setBooks(books.filter(book => book.id !== id) )
     // }
 
+    // Test Bug
+
     const [books, dispatch] = useReducer(bookReducer, [], () => {
         const localData = localStorage.getItem("books");
         return localData ? JSON.parse(localData) : []
