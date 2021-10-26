@@ -16,8 +16,8 @@ const NewBookForm = () => {
         }
         // addBook(book);
         dispatch({type: "ADD_BOOK", book })
-        // setTitle('');
-        // setAuthor('');
+        setTitle('');
+        setAuthor('');
     }
 
     return (
